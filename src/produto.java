@@ -61,8 +61,7 @@ public class produto {
         acai.alterarQuantidade(6);
         System.out.println("\nAtualização do estoque: " + acai.getQuantidadeEmEstoque());
 
-    }
-    public static void teste(){
+        System.out.println("***** TESTE DE CONSTRUTORES *****");
         produto banana = new produto("Banana", 8.0, 45);
         produto abacaxi = new produto("Abacaxi", 4, 20);
 
@@ -73,5 +72,5 @@ public class produto {
 
         banana.exibirInformacoes();
         abacaxi.exibirInformacoes();
-    }
-}
+
+}}
